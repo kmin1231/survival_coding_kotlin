@@ -1,8 +1,47 @@
-# Compiled class file
+# Kotlin build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Android Studio files
+.android/
+local.properties
+*.apk
+*.ap_ 
+*.dex
 *.class
 
-# Log file
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains files
+.idea/
+
+# Kotlin compiler
+out/
+
+# Log files
 *.log
+
+# OS-specific files
+*.swp
+*.swo
 
 # BlueJ files
 *.ctxt
